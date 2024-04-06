@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 8px;
+}
+
+td:first-child {
+  font-weight: 500;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 1.5rem;
+}
+
+.title {
+  color: #151515;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+}
+
+/* Header */
+
+.header {
+  padding: 10px 0;
+  margin-bottom: 30px;
+  background-color: #033b18;
+  font-family: "Comic Neue", cursive;
+}
+
+.header__container {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__container > b {
+    color: #f4efef;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 3rem;
+}
+
+.navigation > li {
+  list-style: none;
+}
+
+.navigation > li > a {
+  text-decoration: none;
+  color: #f4efef;
+  font-weight: 700;
+}
+
+.navigation > li > a.active {
+  text-decoration: underline;
+}
+
+.navigation > li > a:hover {
+  text-decoration: underline;
+}
+
+/* Main page */
+
+.page__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.page__greeting {
+  max-width: 700px;
+  line-height: 1.5;
+}
+
+.page__title {
+  margin-bottom: 30px;
+}
+
+.page__text {
+  margin-bottom: 30px;
+  font-size: 1.125rem;
+}
+
+.page__table {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.page__text_description {
+  margin-bottom: 10px;
+  color: #a0a0a0;
+  font-size: 0.9rem;
+}
+
+.button {
+  padding: 0.25rem;
+  margin-bottom: 30px;
+}
+
+/* Contact */
+
+.contact {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.contact textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.contact button {
+  padding: 0.25rem;
+}
+
+.contact__title {
+  text-align: center;
+}
+
+.status-page {
+  display: grid;
+  place-items: center;
+}
