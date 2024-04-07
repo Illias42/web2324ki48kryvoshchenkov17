@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Message sent successfully!</title>
-  <link rel="stylesheet" href="../../styles/main.css">
-  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  <title>My profile</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
 </head>
-
 <body>
   <div class="wrapper">
 
     <header class="header">
       <div class="header__container container">
-        <b>WEB</b>
+        <b>Web</b>
 
         <nav>
           <ul class="navigation">
@@ -25,24 +23,23 @@
               <a href="/about">Request</a>
             </li>
             <li>
-              <a href="/contact">Contacts</a>
+              <a href="/contact">Form</a>
             </li>
           </ul>
         </nav>
 
         <div class="header__account">
-          <a href="/signin" class="header__btn">Log in</a>
-          <a href="/signup" class="header__btn">Sign up</a>
+          <a href="/signout" class="header__btn">Sign out</a>
         </div>
       </div>
     </header>
 
-    <main class="page status-page">
-      <h2 class="page__title contact__title title">Message sent successfully!</h2>
-
-      <img src="../assets/success.svg" alt="Success" width="300">
+    <main class="page">
+      <div class="page__container profile">
+        <section class="page__greeting">
+          <h1 class="page__title title profile__title">Welcome! You're authorized!</h1>
+      </div>
     </main>
   </div>
 </body>
-
 </html>

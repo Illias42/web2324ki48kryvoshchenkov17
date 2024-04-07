@@ -176,3 +176,22 @@ textarea {
   display: grid;
   place-items: center;
 }
+
+.header__account {
+  font-family: 'Noto-Sans', sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+}
+
+.header__btn {
+  text-decoration: none;
+  color: #fafafa;
+  padding: 0.5rem 0.8rem;
+}
+
+/* .header__btn:hover {
+  background-color: #6d6d6d;
+  color: #fafafa;
+} */

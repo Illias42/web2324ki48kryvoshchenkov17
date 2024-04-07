@@ -27,6 +27,11 @@
           </li>
         </ul>
       </nav>
+
+      <div class="header__account">
+        <a href="/signin" class="header__btn">Log in</a>
+        <a href="/signup" class="header__btn">Sign up</a>
+      </div>
     </div>
   </header>
 
